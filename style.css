@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+.container{
+  width: 25vw;
+  background-color: rgb(32, 32, 32);
+  height: 42vw;
+  margin: 4vw auto;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+h3{
+  color: yellow;
+  font-size: 2vw;
+  text-align: center;
+  padding: 1vw;
+}
+.display{
+  background-color: rgb(152, 213, 241);
+  width: 88%;
+  border-radius: 10px;
+  height: 4vw;
+  margin:  0 1.1vw;
+  border: none;
+  font-size: 2vw;
+  text-align: end;
+  padding:0 10px;
+}
+.buttons{
+  width: 90%;
+  margin: 2vw auto;
+  display:flex ;
+  flex-wrap: wrap;
+  gap: 2vw;
+  justify-content: center;
+}
+button{
+  width: 4vw;
+  height:4vw;
+  background:linear-gradient(125deg, black, rgb(43, 42, 42));
+  color: white;
+  border: none;
+  font-size: 1vw;
+  font-weight: 900;
+}
+button:active{
+  scale: 1.1;
+}
+.equal{
+  width: 10vw;
+}
